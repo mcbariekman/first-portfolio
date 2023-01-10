@@ -40,6 +40,8 @@ article {
     font-size: 20pt;
     background-color:  #0f476b;
     color: #ffffff;
+    resize: horizontal;
+    overflow: auto;
 }
 
 img {
