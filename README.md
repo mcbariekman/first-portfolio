@@ -13,4 +13,4 @@ for UW-VIRT-FSF-PT-12-2022-U-LOLC-MTTH
 https://github.com/mcbariekman/bariekman-portfolio
 
 # Application URL
-https://github.com/mcbariekman/bariekman_portfolio/deployments/activity_log?environment=github-pages
+https://mcbariekman.github.io/bariekman_portfolio/
