@@ -7,7 +7,7 @@ for UW-VIRT-FSF-PT-12-2022-U-LOLC-MTTH
 
 # Screenshot
 * Live webpage
-![Live Page](./assets\images\screenshot.png)
+![Live Page](./assets/images/screenshot.png)
 
 # GitHub Link
 https://github.com/mcbariekman/bariekman-portfolio
