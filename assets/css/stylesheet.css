@@ -1,41 +1,43 @@
-.body {
+body {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #a2fec1;
     color: #ffffff;
 }
 
-.header {
-margin-bottom: 20px;
-padding: 50px;
-height: 300px;
+header {
+    float:right;
+    position: fixed;
+padding-bottom: 20px;
+width: 400px;
+height: 50px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-background-color: #0072bb;
+background-color: #90a6b4;
 color: #ffffff;
 }
 
-.nav {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+nav ul li  {
+    display:inline-flex;
+    margin: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
     color: #ffffff;
+    font-size: 20pt;
 }
 
-.article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+article {
+    display: flex;
+    padding: 25px;
+    width: auto;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color:  #0072bb;
     color: #ffffff;
 }
 
 .imgclass1 {
-    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .imgclass2 { 
@@ -46,16 +48,22 @@ color: #ffffff;
     margin-left: 25px;
 }
 
-.section {
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-.footer { 
+p {
+    font-family: 'Times New Roman', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align: left;
+    color: #ffffff;
+}
+
+footer { 
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
