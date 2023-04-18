@@ -10,5 +10,5 @@ https://mcbariekman.github.io/bariekman_portfolio/
 
 # Screenshot
 * Live webpage
-![Live Page](./assets/images/live%20page.jpeg)
+![Live Page](/assets/images/screenshot.png)
 
