@@ -2,92 +2,70 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="Madilyn Bariekman" content="Portfolio">
-    <link rel="stylesheet" type="text/css" href="./assets/css/stylesheet.css">
-    <title>Madilyn's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Madilyn Bariekman" content="Portfolio">
+  <link rel="stylesheet" type="text/css" href="./assets/css/stylesheet.css">
+  <title>Madilyn's Portfolio</title>
 </head>
- <body>
 
-  <h1>Madilyn's Portfolio</h1>
-     <header> 
-        <nav>
-        <ul>
-        <li><a href="#top">Gallery</a></li>
+<body>
+  <header>
+    <h1>Madilyn's Portfolio</h1>
+    <nav>
+      <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#button1">Contact</a></li>
-        </ul>
-      </nav>   
-        </header><br>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <article>
-          <!-- portfolio content here -->
-          <a href="https://andreaginn.github.io/Click-for-Flicks/"><img src="assets\images\CfFScreenshot.jpg" id="project1"/></a>
-          <a href="https://mcbariekman.github.io/code-quiz-challenge/"><img src="assets\images\usage.png" id="challenge4"/></a>
-          <a href="https://sundaesunday.herokuapp.com/"><img src="assets/images/sundaesundaytriathlon.png" id="project2"/></a>
-          <p><img src="assets\images\sampleimg.png" alt="sample"/></p>
-        </article><br>
+  <section id="about">
+    <h2>About</h2>
+    <div class="profile">
+      <img src="assets/images/madilyn.jpg" alt="Madilyn Bariekman">
+      <h3>Madilyn Bariekman</h3>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus vehicula cursus. Duis imperdiet, eros et lobortis consectetur, arcu mi rhoncus nisi, ut ornare nibh eros vel odio. Nulla et orci at quam pulvinar gravida. Duis posuere orci in aliquet dictum. Cras sed porta ipsum, et pharetra ipsum. Aliquam euismod nec urna tristique tristique. Nam at diam bibendum tellus fermentum venenatis.</p>
+  </section>
 
-    <section>
-        <h1>Information</h1>
-        <p>Lorem ipsum dolor sit amet, 
-          consectetur adipiscing elit. 
-          Duis luctus vehicula cursus. D
-          uis imperdiet, eros et lobortis 
-          consectetur, arcu mi rhoncus nisi, 
-          ut ornare nibh eros vel odio. 
-          Nulla et orci at quam pulvinar gravida. 
-          Duis posuere orci in aliquet dictum. 
-          Cras sed porta ipsum, et pharetra ipsum. 
-          Aliquam euismod nec urna tristique tristique. 
-          Nam at diam bibendum tellus fermentum venenatis.
-        </p>
-        <p>Lorem ipsum dolor sit amet, 
-          consectetur adipiscing elit. 
-          Duis luctus vehicula cursus. D
-          uis imperdiet, eros et lobortis 
-          consectetur, arcu mi rhoncus nisi, 
-          ut ornare nibh eros vel odio. 
-          Nulla et orci at quam pulvinar gravida. 
-          Duis posuere orci in aliquet dictum. 
-          Cras sed porta ipsum, et pharetra ipsum. 
-          Aliquam euismod nec urna tristique tristique. 
-          Nam at diam bibendum tellus fermentum venenatis.
-        </p>
-        <p>Lorem ipsum dolor sit amet, 
-          consectetur adipiscing elit. 
-          Duis luctus vehicula cursus. D
-          uis imperdiet, eros et lobortis 
-          consectetur, arcu mi rhoncus nisi, 
-          ut ornare nibh eros vel odio. 
-          Nulla et orci at quam pulvinar gravida. 
-          Duis posuere orci in aliquet dictum. 
-          Cras sed porta ipsum, et pharetra ipsum. 
-          Aliquam euismod nec urna tristique tristique. 
-          Nam at diam bibendum tellus fermentum venenatis.
-        </p>
-      </section>
-      <section id="about">
-        <h2>About</h2>
-        <p><img class="me" src="assets\images\madilyn.jpg" alt="Madilyn Bariekman"></p>
-        <p>Lorem ipsum dolor sit amet, 
-          consectetur adipiscing elit. 
-          Duis luctus vehicula cursus. D
-          uis imperdiet, eros et lobortis 
-          consectetur, arcu mi rhoncus nisi, 
-          ut ornare nibh eros vel odio. 
-          Nulla et orci at quam pulvinar gravida. 
-          Duis posuere orci in aliquet dictum. 
-          Cras sed porta ipsum, et pharetra ipsum. 
-          Aliquam euismod nec urna tristique tristique. 
-          Nam at diam bibendum tellus fermentum venenatis.
-        </p>
-      </section>
-        
-    <footer>
-    <h1>Contact</h1>
-    <a href="mailto:mcbariekman@hotmail.com"><button id="button1" alt="email link">Email</button></a>
-</footer>
-   </body>
+  <section id="work">
+    <h2>Work</h2>
+    <div class="portfolio">
+      <a href="https://andreaginn.github.io/Click-for-Flicks/">
+        <img src="assets/images/CfFScreenshot.jpg" alt="Click for Flicks">
+        <h3>Click for Flicks</h3>
+      </a>
+      <a href="https://mcbariekman.github.io/code-quiz-challenge/">
+        <img src="assets/images/usage.png" alt="Code Quiz Challenge">
+        <h3>Code Quiz Challenge</h3>
+      </a>
+      <a href="https://sundaesunday.herokuapp.com/">
+        <img src="assets/images/sundaesundaytriathlon.png" alt="Sundae Sunday">
+        <h3>Sundae Sunday</h3>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to contact me for any inquiries or opportunities.</p>
+    <a href="mailto:mcbariekman@hotmail.com">Email</a>
+  </section>
+
+  <script>
+    const navLinks = document.querySelectorAll('nav a');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const targetId = link.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+        targetSection.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
 
 </html>
