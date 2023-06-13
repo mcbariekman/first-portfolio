@@ -10,48 +10,55 @@
 </head>
 
 <body>
-  <header>
-    <h1>Madilyn's Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
   <section id="about">
     <h2>About</h2>
     <div class="profile">
       <img src="assets/images/madilyn.jpg" alt="Madilyn Bariekman">
       <h3>Madilyn Bariekman</h3>
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus vehicula cursus. Duis imperdiet, eros et lobortis consectetur, arcu mi rhoncus nisi, ut ornare nibh eros vel odio. Nulla et orci at quam pulvinar gravida. Duis posuere orci in aliquet dictum. Cras sed porta ipsum, et pharetra ipsum. Aliquam euismod nec urna tristique tristique. Nam at diam bibendum tellus fermentum venenatis.</p>
+    <p id="para1">Hi, I'm a Full-Stack Developer and continuously learning. I have skills covering a wide variety of topics, including but not limited to: <image src="/assets/images/logo.png"></image></p>
   </section>
 
   <section id="work">
     <h2>Work</h2>
     <div class="portfolio">
-      <a href="https://andreaginn.github.io/Click-for-Flicks/">
-        <img src="assets/images/CfFScreenshot.jpg" alt="Click for Flicks">
-        <h3>Click for Flicks</h3>
-      </a>
-      <a href="https://mcbariekman.github.io/code-quiz-challenge/">
-        <img src="assets/images/usage.png" alt="Code Quiz Challenge">
-        <h3>Code Quiz Challenge</h3>
-      </a>
-      <a href="https://sundaesunday.herokuapp.com/">
-        <img src="assets/images/sundaesundaytriathlon.png" alt="Sundae Sunday">
-        <h3>Sundae Sunday</h3>
-      </a>
+      <div class="card">
+        <a href="https://andreaginn.github.io/Click-for-Flicks/">
+          <img src="assets/images/CfFScreenshot.jpg" alt="Click for Flicks">
+          <h3>Click for Flicks</h3>
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://sundaesunday.herokuapp.com/" alt="heroku link">
+          <img src="assets/images/sundaesundaytriathlon.png" alt="Sundae Sunday">
+          <h3>Sundae Sunday</h3>
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://poketraderv1.herokuapp.com/" alt="heroku link">
+          <img src="assets/images/poketrader.png" alt="PokeTrader">
+          <h3>PokeTrader</h3>
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://mcbariekman.github.io/code-quiz-challenge/" alt="live url link">
+          <img src="assets/images/usage.png" alt="Code Quiz Challenge">
+          <h3>Code Quiz Challenge</h3>
+        </a>
+      </div>
     </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Feel free to contact me for any inquiries or opportunities.</p>
-    <a href="mailto:mcbariekman@hotmail.com">Email</a>
+    <p id="para1">Fill out the form below to contact me through email. If you're from a company, please leave a message with full details of how you would like to hear back, thank you.</p>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Company Name (Optional)">
+      <textarea placeholder="Message (Optional)"></textarea>
+      <input type="submit" value="Submit">
+    </form>
   </section>
 
   <script>
